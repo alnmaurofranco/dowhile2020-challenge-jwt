@@ -2,7 +2,7 @@
 <br />
 <br>
 
-# **DoWhile 2020 - Autenticação com segurança no JWT com Typescript**
+# **DoWhile 2020 - Desafio JWT Aplicando boas praticas e com Typescript**
 
 - Workshop apresentado no DoWhile 2020 evento organizado pela Rocketseat nos dias 14 e 15 de dezembro em 2020.
 - Agradecimento ao **André Askmon** pelo conteudo do Workshop: _Autenticação com segurança no JWT._
