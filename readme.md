@@ -1,3 +1,5 @@
+<img align="center" alt="DoWhileJWT" width="520px" height="150px" src="./dowhilejwt.png" />
+
 # **DoWhile 2020 - Autenticação com segurança no JWT com Typescript**
 
 - Workshop apresentado no DoWhile 2020 evento organizado pela Rocketseat nos dias 14 e 15 de dezembro em 2020.
