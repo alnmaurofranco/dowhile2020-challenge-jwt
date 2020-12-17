@@ -1,5 +1,7 @@
+<div style="text-align: center;">
 <img align="center" alt="DoWhileJWT" width="520px" height="150px" src=".github/dowhilejwt.png"
 style="text-align: center;" />
+</div>
 <br />
 
 # **DoWhile 2020 - Desafio JWT Aplicando boas praticas e com Typescript**
