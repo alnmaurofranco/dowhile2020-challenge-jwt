@@ -1,4 +1,5 @@
 import { compare } from 'bcryptjs'
+import RefreshToken from 'src/models/RefreshToken'
 import { getRepository } from 'typeorm'
 import User from '../models/User'
 
@@ -33,6 +34,14 @@ export default class AuthenticateUserService {
     }
 
     const token = generateToken(user.id)
+
+    const refreshToken = getRepository(RefreshToken).create({
+      refreshToken: token,
+      valid: true,
+      user_id: user.id,
+    })
+
+    await getRepository(RefreshToken).save(refreshToken)
 
     return {
       user,

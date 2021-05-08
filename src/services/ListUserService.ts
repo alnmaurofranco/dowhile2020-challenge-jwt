@@ -6,6 +6,7 @@ export default class ListUserService {
     const repository = getRepository(User)
 
     const users = await repository.find({})
+    console.log(users)
 
     if (users.length === 0) {
       throw new Error('No exists users i am moment')

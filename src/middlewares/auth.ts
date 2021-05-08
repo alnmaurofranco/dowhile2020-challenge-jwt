@@ -21,15 +21,13 @@ export default function ensureAuthenticated(
   const [, token] = authHeader.split(' ')
 
   try {
-    const decoded: any = tokenVerify(token)
+    const decoded: unknown = tokenVerify(token)
 
     const { sub } = decoded as ITokenPayload
 
     req.user = {
       id: sub,
     }
-
-    console.log(req.user.id)
 
     return next()
   } catch {
